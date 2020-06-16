@@ -118,7 +118,7 @@
             "codeCoverageExclude": [
               "/**/*mock*.ts",
               "/**/openvidu-layout.ts"
-          ]
+            ]
           }
         },
         "lint": {
@@ -171,9 +171,9 @@
           },
           "configurations": {
             "production": {
-              "project": "projects/openvidu-angular/ng-package.prod.json"
-            ,              "tsConfig": "projects/openvidu-angular/tsconfig.lib.prod.json"
-}
+              "project": "projects/openvidu-angular/ng-package.prod.json",
+              "tsConfig": "projects/openvidu-angular/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -199,5 +199,8 @@
       }
     }
   },
-  "defaultProject": "openvidu-call"
+  "defaultProject": "openvidu-call",
+  "cli": {
+    "analytics": "60acd62e-05fb-448b-99f0-4ba1e0cdab3a"
+  }
 }
